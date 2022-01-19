@@ -69,7 +69,7 @@ describe("Get Balance Controller", () => {
       statement
     })
 
-    repositoryUser.save(userAsDeleted)
+    await repositoryUser.save(userAsDeleted)
   });
 
   afterAll(async () => {
